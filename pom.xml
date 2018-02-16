@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>poc.fpo.services</groupId>
+	<artifactId>poc-vertx-kafka</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>1.8</java.version>
+		<vertx.version>3.5.0</vertx.version>
+	</properties>
+
+	<modules>
+		<module>task-model</module>
+		<module>task-producer</module>
+		<module>task-consumer</module>
+		<module>task-multiple-consumer</module>
+		<module>task-all-consumer</module>
+	</modules>
+</project>

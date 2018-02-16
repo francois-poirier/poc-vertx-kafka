@@ -1,0 +1,4 @@
+{
+ "kafka.topic.port" : 9092,
+ "kafka.topic.address" : "localhost"
+}
