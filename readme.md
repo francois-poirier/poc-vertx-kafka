@@ -27,7 +27,7 @@ This is the repository for the example of using Vertx and Kafka
 #### Setup the poc-vertx-kafka repo
 Clone or fork the repo
 ```
-     git clone
+     git clone https://github.com/francois-poirier/poc-vertx-kafka.git
      cd poc-vertx-kafka
 ```
 Build all projects
